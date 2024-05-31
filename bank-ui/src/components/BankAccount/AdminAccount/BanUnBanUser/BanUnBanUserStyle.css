@@ -1,0 +1,26 @@
+.BanUnBanMain{
+    padding: 1%;
+    width: 98%;
+    height: 98%;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.BanUnBanMain .necessaryInf{
+    height: 7%;
+    margin-top: 3%;
+}
+#banBtn{
+    margin-top: 3%;
+    margin-left: 1%;
+    height: 7%;
+    width: 15%;
+    font-size: 0.8rem;
+}
+#banBtn:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}

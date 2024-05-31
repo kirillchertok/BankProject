@@ -1,0 +1,96 @@
+@keyframes seeField {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.addPaymnetMainFiled{
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.8);
+    animation: seeField 1s forwards;
+}
+.addPaymentMain{
+    width: 30%;
+    height: 31%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 25px;
+}
+.addPaymentInfFields{
+    width: 100%;
+    height: 88%;
+}
+.chooseMoneyToPay{
+    width: 100%;
+    height: 10%;    
+}
+.choosePaymentInf{
+    height: 80%;
+    margin-top: 7%;
+}
+.choosePaymentType{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.type{
+    height: 5vh;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#typeByCard{
+    margin-left: 5%;
+}
+.type[data-status="selected"]{
+    color: white;
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    border: 2px solid red;
+}
+.type[data-status="notselected"]{
+    color: red;
+    background-color: white;
+    box-shadow: 0;
+    border: 2px solid lightgray;
+}
+.type[data-status="notselected"]:hover{
+    box-shadow: 0 0 10px lightgray;
+    font-size: 1.05rem;
+}
+.addPaymentDropDown{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 5vh;
+}
+.addPaymentDropDown .dropDownListField{
+    animation: seeField 1s forwards;
+    width: 100%;
+    height: 100%;
+}
+#confirmPaymentBtn{
+    width: 25%;
+    height: 5vh;
+    font-size: 0.9rem;
+}
+#confirmPaymentBtn:hover{
+    box-shadow: 0 0 10px lightgray;
+    font-size: 0.95rem;
+}

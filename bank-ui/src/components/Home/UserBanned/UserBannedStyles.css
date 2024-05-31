@@ -1,0 +1,38 @@
+.userBannedMain{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(200, 200, 200, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+.userBannedMainField{
+    padding: 2%;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center
+}
+.mainMessage{
+    font-size: 4rem;
+}
+#bannedBtn{
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    font-size: 0.9rem;
+}
+#bannedBtn:hover{
+    font-size: 0.95rem;
+    box-shadow: 0 0 10px lightgray;
+}

@@ -1,0 +1,52 @@
+
+.cardCarcase{
+    position: absolute;
+    background-color: red;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: space-between;
+}
+#Red{
+    background-color: red;
+    z-index: 1;
+}
+#Gold{
+    background-color: goldenrod;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 2;
+}
+#Silver{
+    background-color: Silver;
+    margin-top: 6%;
+    margin-left: 6%;
+    z-index: 3;
+}
+.CurrencyAndBank{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:white;
+    font-size:medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Chip{
+    margin-bottom: 15%;
+    background-color: #c3d4c7;
+    width: 13%;
+    height: 15%;
+    border-radius: 3px;
+}
+.Name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+    color:darkgrey;
+}

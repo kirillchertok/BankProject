@@ -1,0 +1,17 @@
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.DataAccess.deps.json
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.DataAccess.runtimeconfig.json
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.DataAccess.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.DataAccess.pdb
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.Core.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\bin\Debug\net8.0\BankProject.Core.pdb
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.csproj.AssemblyReference.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.AssemblyInfoInputs.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.AssemblyInfo.cs
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProj.8D7B1403.Up2Date
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\refint\BankProject.DataAccess.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.pdb
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\BankProject.DataAccess.genruntimeconfig.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.DataAccess\obj\Debug\net8.0\ref\BankProject.DataAccess.dll

@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0173CE9E-B16B-412B-BE2B-024E9F5C1735}|BankProject.Application\\BankProject.Application.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.application\\services\\accountservices\\creditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0173CE9E-B16B-412B-BE2B-024E9F5C1735}|BankProject.Application\\BankProject.Application.csproj|solutionrelative:bankproject.application\\services\\accountservices\\creditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.dataaccess\\repositories\\creditsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|solutionrelative:bankproject.dataaccess\\repositories\\creditsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.api\\contracts\\admin\\getallcreditvalues\\getallcreditvaluesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|solutionrelative:bankproject.api\\contracts\\admin\\getallcreditvalues\\getallcreditvaluesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF714DB9-E039-4CB7-BEFF-6A65E4E9BA60}|BankProject.Core\\BankProject.Core.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.core\\models\\creditvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF714DB9-E039-4CB7-BEFF-6A65E4E9BA60}|BankProject.Core\\BankProject.Core.csproj|solutionrelative:bankproject.core\\models\\creditvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.api\\controllers\\accountcontrollers\\creditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|solutionrelative:bankproject.api\\controllers\\accountcontrollers\\creditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.dataaccess\\repositories\\creditvaluerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|solutionrelative:bankproject.dataaccess\\repositories\\creditvaluerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB72FBBB-894C-42F2-B976-26540AA4B53B}|BankProject.Api\\BankProject.API.csproj|solutionrelative:bankproject.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|c:\\253502\\4 sem\\oop\\bank-api\\bankproject.api\\bankproject.dataaccess\\repositories\\billsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7256DB5D-BF34-4BE6-B9A0-DC44CD704F41}|BankProject.DataAccess\\BankProject.DataAccess.csproj|solutionrelative:bankproject.dataaccess\\repositories\\billsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreditsRepository.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\CreditsRepository.cs",
+              "RelativeDocumentMoniker": "BankProject.DataAccess\\Repositories\\CreditsRepository.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\CreditsRepository.cs",
+              "RelativeToolTip": "BankProject.DataAccess\\Repositories\\CreditsRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T23:58:50.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreditService.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Application\\Services\\AccountServices\\CreditService.cs",
+              "RelativeDocumentMoniker": "BankProject.Application\\Services\\AccountServices\\CreditService.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Application\\Services\\AccountServices\\CreditService.cs",
+              "RelativeToolTip": "BankProject.Application\\Services\\AccountServices\\CreditService.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAqwG0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T23:58:11.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreditValue.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Core\\Models\\CreditValue.cs",
+              "RelativeDocumentMoniker": "BankProject.Core\\Models\\CreditValue.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Core\\Models\\CreditValue.cs",
+              "RelativeToolTip": "BankProject.Core\\Models\\CreditValue.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:25:53.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreditValueRepository.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\CreditValueRepository.cs",
+              "RelativeDocumentMoniker": "BankProject.DataAccess\\Repositories\\CreditValueRepository.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\CreditValueRepository.cs",
+              "RelativeToolTip": "BankProject.DataAccess\\Repositories\\CreditValueRepository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:19:18.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BillsRepository.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\BillsRepository.cs",
+              "RelativeDocumentMoniker": "BankProject.DataAccess\\Repositories\\BillsRepository.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.DataAccess\\Repositories\\BillsRepository.cs",
+              "RelativeToolTip": "BankProject.DataAccess\\Repositories\\BillsRepository.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAADwv48AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:38:12.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreditController.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Controllers\\AccountControllers\\CreditController.cs",
+              "RelativeDocumentMoniker": "BankProject.Api\\Controllers\\AccountControllers\\CreditController.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Controllers\\AccountControllers\\CreditController.cs",
+              "RelativeToolTip": "BankProject.Api\\Controllers\\AccountControllers\\CreditController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswHAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:36:58.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllCreditValuesResponse.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Contracts\\Admin\\GetAllCreditValues\\GetAllCreditValuesResponse.cs",
+              "RelativeDocumentMoniker": "BankProject.Api\\Contracts\\Admin\\GetAllCreditValues\\GetAllCreditValuesResponse.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Contracts\\Admin\\GetAllCreditValues\\GetAllCreditValuesResponse.cs",
+              "RelativeToolTip": "BankProject.Api\\Contracts\\Admin\\GetAllCreditValues\\GetAllCreditValuesResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:27:10.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BankProject.Api\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\253502\\4 sem\\OOP\\bank-api\\BankProject.Api\\BankProject.Api\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BankProject.Api\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAmwA8BAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:11:22.436Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

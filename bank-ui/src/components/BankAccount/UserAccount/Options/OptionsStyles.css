@@ -1,0 +1,46 @@
+.MainOptions{
+    height: 40vh;
+    width: 13vw;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: normal;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Option{
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    height: 20%;
+    transition: background-color 0.5s,
+                font-size 0.5s;
+}
+.Option:hover{
+    font-size: 1.25rem;
+    background-color: rgb(222, 217, 217);
+}
+.Option:active{
+    background-color: rgb(228, 228, 228);
+    transform: translateY(0.5px);
+}
+#Last{
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#First{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}

@@ -1,0 +1,19 @@
+.changeBalanceMain{
+    padding: 1%;
+    width: 98%;
+    height: 98%;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.changeBalanceMain .selectWayToGet div{
+    width: 32%;
+}
+.changeBalanceMain .necessaryInf{
+    width: 30%;
+    height: 10%;
+    margin-left: 3%;
+}

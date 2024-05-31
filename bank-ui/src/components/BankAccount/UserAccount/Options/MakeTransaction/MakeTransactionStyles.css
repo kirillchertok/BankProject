@@ -1,0 +1,160 @@
+.mainMakeTransaction{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainField{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 80%;
+    width: 70%;
+    border-radius: 25px;
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.headerField{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerField p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    font-size: 2rem;
+}
+.goBackButton{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+}
+.selectMethod{
+    margin-top: 1%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+.methods{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.methods div{
+    width: 23%;
+    height: 60%;
+    font-weight: 500;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.selected{
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    box-shadow: 0 0 10px red;
+}
+.notselected{
+    color: red;
+    background-color: white;
+}
+.methodData{
+    margin-top: 1%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.separatorLine{
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 1.3rem;
+}
+.cautinaryNote{
+    height: 25%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: lightgray;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 1%;
+}
+.methodInput{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.methodInput input{
+    height: 17%;
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px red;
+    padding-left: 1%;
+    font-size: 1.1rem;
+    color: black;
+}
+.methodInput input:focus{
+    outline: none;
+}
+.requestResponsTools{
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.confirmInf{
+    margin-right: 2%;
+    border: none;
+    font-weight: 700;
+    color: white;
+    width: 17%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: all 0.5s;
+}
+.confirmInf:focus{
+    outline: none;
+}
+.confirmInf:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.confirmInf:active{
+    background-color: rgb(228, 228, 228);
+    transform: translateY(0.5px);
+}

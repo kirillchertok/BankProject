@@ -1,0 +1,1120 @@
+[
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.AccountController",
+    "Method": "CheckBan",
+    "RelativePath": "api/Account/CheckBan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Account.CheckBanResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.AccountController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Account/getAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Account.GetAllAccountDataResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.AccountController",
+    "Method": "GetUserFullName",
+    "RelativePath": "api/Account/getFullName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Account.GetUserFullNameResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.AccountController",
+    "Method": "GetTrsBillsData",
+    "RelativePath": "api/Account/getTrsBillsData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Account.GetTrsBillsDataResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "AddCreditValue",
+    "RelativePath": "api/Admin/AddCreditValue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.AddCreditValue.AddCreditValueRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.AddCreditValue.AddCreditValueResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "AddMoney",
+    "RelativePath": "api/Admin/AddMoney",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "AddMoneyUnAllocated",
+    "RelativePath": "api/Admin/AddMoneyUnAllocated",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllAccounts",
+    "RelativePath": "api/Admin/allaccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.BankAccountAdmin.GetAllAccountsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Admin/allusers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BankProject.API.Contracts.Admin.UserAdmin.UsersResponse, BankProject.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "ApproveCredit",
+    "RelativePath": "api/Admin/ApproveCredit",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ApproveCredit.ApproveCreditRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "BanUser",
+    "RelativePath": "api/Admin/banUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.BanUser.BanUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.BanUser.BanUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllBills",
+    "RelativePath": "api/Admin/GetAllBills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllBills.GetAllBillsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllCards",
+    "RelativePath": "api/Admin/GetAllCards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllCards.GetAllCardsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllCredits",
+    "RelativePath": "api/Admin/GetAllCredits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllCredits.GetAllCreditsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllCreditValues",
+    "RelativePath": "api/Admin/GetAllCreditValues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllCreditValues.GetAllCreditValuesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "api/Admin/GetAllTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllTransactions.GetAllTransactionsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Admin/GetMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetOneAccount",
+    "RelativePath": "api/Admin/oneaccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.BankAccountAdmin.GetOne.GetOneAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.BankAccountAdmin.GetAllAccountsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "GetOneById",
+    "RelativePath": "api/Admin/oneuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.UserAdmin.GetOne.GetOneUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.UserAdmin.GetOne.GetOneUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "RejectCredit",
+    "RelativePath": "api/Admin/RejectCredit",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ApproveCredit.ApproveCreditRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "RemoveMoney",
+    "RelativePath": "api/Admin/RemoveMoney",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "RemoveMoneyUnAllocated",
+    "RelativePath": "api/Admin/RemoveMoneyUnAllocated",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.ChangeBalance.ChangeBalanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "UnBanUser",
+    "RelativePath": "api/Admin/unBanUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.UnBanUser.UnBanUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.UnBanUser.UnBanUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AdminController",
+    "Method": "UpdateCreditValue",
+    "RelativePath": "api/Admin/UpdateCreditValue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Admin.AddCreditValue.AddCreditValueRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.AddCreditValue.AddCreditValueResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AuthController",
+    "Method": "AddUnbanMessage",
+    "RelativePath": "api/Auth/AddUnbanMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Users.LoginUser.LoginUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Users.LoginUser.LoginUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Users.LogoutUser.LogoutUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Users.LogoutUser.LogoutUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/Auth/Refresh",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Users.RefreshUser.RefreshUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.Api.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Users.RegisterUser.RegisterUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Users.RegisterUser.RegisterUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.BillController",
+    "Method": "AddBill",
+    "RelativePath": "api/Bill/AddBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Bill.AddBill.AddBillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Bill.AddBill.AddBillResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.BillController",
+    "Method": "DistributeMoney",
+    "RelativePath": "api/Bill/DistributeMoney",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Bill.DistributeMoney.DistributeMoneyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.BillController",
+    "Method": "GetUserBills",
+    "RelativePath": "api/Bill/GetBills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Bill.UserBills.UserBillsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Bill.UserBills.UserBillsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CardController",
+    "Method": "AddCard",
+    "RelativePath": "api/Card/AddCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Card.AddCard.AddCardRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Card.AddCard.AddCardResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CardController",
+    "Method": "GetUserCards",
+    "RelativePath": "api/Card/GetCards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Card.GetCards.GetCardsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Card.GetCards.GetCardsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "GetAllCreditValues",
+    "RelativePath": "api/Credit/GetAllCreditValuesUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Admin.GetAllCreditValues.GetAllCreditValuesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "GetAllUserCredits",
+    "RelativePath": "api/Credit/GetAllUserCredits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Credit.GetAllUserCredits.GetAllUserCreditsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "GetOneCreditById",
+    "RelativePath": "api/Credit/GetOneCreditById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creditId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Credit.GetOne.GetOneCreditResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "TryCredit",
+    "RelativePath": "api/Credit/TryCredit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "response",
+        "Type": "BankProject.API.Contracts.Credit.TryGet.TryGetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Credit.TryGet.TryGetResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "UpdateCreditApplicationInf",
+    "RelativePath": "api/Credit/UpdateCreditApplicationInf",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Credit.UpdateApplication.UpdateApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.CreditController",
+    "Method": "UpdatePayment",
+    "RelativePath": "api/Credit/UpdatePayment",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Credit.UpdateDept.UpdatePaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email/SendEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Users.RefreshUser.SendEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Users.RefreshUser.SendEmailResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "AddBillBill",
+    "RelativePath": "api/Transaction/AddBillBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "AddBillCard",
+    "RelativePath": "api/Transaction/AddBillCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "AddCardBill",
+    "RelativePath": "api/Transaction/AddCardBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "AddCardCard",
+    "RelativePath": "api/Transaction/AddCardCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.AddTransaction.AddTransactionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "GetAllBillTransactions",
+    "RelativePath": "api/Transaction/GetAllAccountTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.GetAllBillTransactions.GetAllAccountTransactionsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "GetLastFiveTransactions",
+    "RelativePath": "api/Transaction/GetLastFive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankProject.API.Contracts.Transaction.GetLastFive.GetLastFiveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.GetLastFive.GetLastFiveResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankProject.API.Controllers.AccountControllers.TransactionController",
+    "Method": "GetLastMonth",
+    "RelativePath": "api/Transaction/GetLastMonth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankProject.API.Contracts.Transaction.GetBillLastMonthTrs.GetLastMonthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+.mainRates{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    box-shadow: 0 0 15px red;
+    border-radius: 10px;
+    width: 80vw;
+    height: 40vh;
+}
+.mainExchange h3{
+    font-size: x-large;
+}
+#Rates{
+    width: 50%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-right: 3px solid lightgray;
+}
+#RatesInf{
+    height: 75%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#RatesInf li{
+    border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgray;
+}
+#Converter{
+    width: 50%;
+}
+.Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.CategoriesInf{
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    height: 5vh;
+}
+.CurrencyInf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 5vw;
+    height: 5vh;
+}
+.RatesInf{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 5vw;
+    height: 5vh;
+}
+.RatesInfSell{
+    /* margin-right: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 5vw;
+    height: 5vh;
+}
+.flags{
+    height: 80%;
+    width: auto;
+}
+#SellPriceLabel{
+    display: flex;
+    justify-content: flex-end;
+}
+#BuyPriceLabel{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,140 @@
+.billInfAccount{
+    margin-top: 1%;
+    width: 97%;
+    height: 25%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: lightgray;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainBillInf{
+    width: 43%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.showInfBtns{
+    margin-left: 3%;
+    transition: all 0.5s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+}
+.showInfBtns[data-status = "hiden"]{
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 16%;
+    height: 50%;
+    margin-left: 8%;
+}
+.showInfBtns[data-status = "hiden"]:hover{
+    font-size: 1.45rem;
+    box-shadow: 0 0 10px white;
+}
+.showInfBtns[data-status = "hiden"]:active{
+    transform: translateY(0.5px);
+}
+.showInfBtns[data-status = "nothiden"]{
+    border: 2px solid lightgray;
+    justify-content: flex-start;
+    padding: 1%;
+    cursor: auto;
+    width: 27%;
+    height: 300%;
+    z-index: 6;
+}
+#showCreditsBtn[data-status = "hiden"]{
+    width: 18%;
+}
+/* #showCardsBtn[data-status = "hiden"]{
+    margin-left: 15%;
+} */
+.billInfFields{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.billInfFields::-webkit-scrollbar{
+    width: 0;
+}
+.billInfHeaders{
+    width: 99%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.billInfHeadersIcons{
+    color: gray;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.unallocatedMonye{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.distributeMoneyBtn{
+    margin-left: 2%;
+    border: none;
+    font-weight: 700;
+    color: red;
+    width: 21%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.5s;
+}
+.distributeMoneyBtn:focus{
+    outline: none;
+}
+.distributeMoneyBtn:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.distributeMoneyBtn:active{
+    background-color: rgb(250, 250, 250);
+    transform: translateY(0.5px);
+}
+
+.noItemsFields{
+    border: 2px solid black;
+    margin-top: 3%;
+    width: 94%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+
+.smallAccountBtns{
+    margin-top: 5%;
+    font-size: 1rem;
+    width: 55%;
+    height: 10%;
+    border-radius: 10px;
+}
+.smallAccountBtns:hover{
+    font-size: 1.05rem;
+    box-shadow: 0 0 10px lightgray;
+}

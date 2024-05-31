@@ -1,0 +1,103 @@
+.getUsersMain{
+    width: 98%;
+    height: 98%;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: white;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+.selectWayToGet{
+    margin-top: 1%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectWayToGet div{
+    width: 22%;
+    height: 90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.getUsersHeader{
+    font-size: 1.3rem;
+}
+.submitRequest{
+    margin-top: 1%;
+    color: white;
+    align-self: flex-start;
+    font-weight: 700;
+    border: none;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: all 0.5s;
+}
+.submitRequest:focus{
+    outline: none;
+}
+.submitRequest:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.submitRequest:active{
+    background-color: rgb(228, 228, 228);
+    transform: translateY(0.5px);
+}
+.necessaryInf{
+    width: 60%;
+    height: 80%;
+    transition: all 0.4s linear;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding-left: 1%;
+    font-size: 1.1rem;
+}
+.necessaryInf:focus{
+    outline: none;
+}
+.requestInfDiv{
+    margin-top: 2%;
+    height: 12%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.receivedInf{
+    margin-top: 2%;
+    width: 100%;
+    height: 60%;
+    background-color: lightgray;
+    border-radius: 25px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.receivedInf::-webkit-scrollbar{
+    width: 0;
+}
+.receivedUser{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 94%;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2%;
+}

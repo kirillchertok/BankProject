@@ -1,0 +1,52 @@
+@keyframes seeField {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.addBillFieldMain{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(230, 230, 230, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: seeField 1s forwards;
+}
+.addBillField{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+.selectBillInf{
+    margin-top: 2%;
+    width: 99%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(3, 30%);
+    row-gap: 5%;
+}
+.selectBillInf p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#submitNewBill{
+    margin-top: 3%;
+    width: 25%;
+    height: 15%;
+}
+#submitNewBill:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}

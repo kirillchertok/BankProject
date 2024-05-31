@@ -1,0 +1,58 @@
+.adminMessages{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 99%;
+    width: 25%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0% 1% 0% 1%;
+    color: red;
+}
+.adminMessagesHeader{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.messages{
+    border: 2px solid lightgray;
+    padding: 2%;
+    width: 96%;
+    height: 88%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
+.messages::-webkit-scrollbar{
+    width: 0;
+}
+.message{
+    border: 2px solid lightgray;
+    padding: 2%;
+    width: 94%;
+    border-radius: 25px;
+}
+.messageMain{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    text-overflow:inherit;
+}
+#messageTaskBtn{
+    width: 30%;
+    height: 5vh;
+    font-size: 0.9rem;
+}
+#messageTaskBtn:hover{
+    font-size: 0.95rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.mainMessageField{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+}

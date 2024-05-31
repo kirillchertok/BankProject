@@ -1,0 +1,11 @@
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\bin\Debug\net8.0\BankProject.Core.deps.json
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\bin\Debug\net8.0\BankProject.Core.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\bin\Debug\net8.0\BankProject.Core.pdb
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.AssemblyInfoInputs.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.AssemblyInfo.cs
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.csproj.CoreCompileInputs.cache
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\refint\BankProject.Core.dll
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\BankProject.Core.pdb
+C:\253502\4 sem\OOP\bank-api\BankProject.Api\BankProject.Core\obj\Debug\net8.0\ref\BankProject.Core.dll

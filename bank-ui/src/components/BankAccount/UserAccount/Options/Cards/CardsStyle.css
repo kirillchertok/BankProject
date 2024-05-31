@@ -1,0 +1,331 @@
+@keyframes highlightBtn {
+    0%{
+        box-shadow: 0;
+        font-size: 0.8rem;
+        width: 48%;
+    }
+    50%{
+        font-size: 0.9rem;
+        box-shadow: 0 0 20px lightgray;
+        width: 50%;
+    }
+    100%{
+        box-shadow: 0;
+        font-size: 0.8rem;
+        width: 48%;
+    }
+}
+
+.cardsMain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cardsMainField{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1%;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.billCards{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.billCardsBtns{
+    width: 25%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addCardBtn[data-status="true"]{
+    animation: highlightBtn 1s infinite linear;
+}
+
+.addCardBtn,
+.seePinCodes{
+    font-size: 0.8rem;
+    border: none;
+    font-weight: 700;
+    color: white;
+    width: 48%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: all 0.5s;
+}
+.addCardBtn:focus
+.seePinCodes:focus{
+    outline: none;
+}
+.addCardBtn:hover,
+.seePinCodes:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.addCardBtn:active,
+.seePinCodes:active{
+    background-color: rgb(228, 228, 228);
+    transform: translateY(0.5px);
+}
+.allCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 88%;
+    margin-top: 2%;
+}
+.noCards{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: lightgray;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.newCardField{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.newCardHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.closeBtn{
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+}
+.newCard{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newCardInputs{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newCardInputs input{
+    height: 10%;
+    padding-left: 2%;
+    font-size: 1.2rem;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.newCardInputs input:focus{
+    outline: none;
+}
+.paymentSystemInput,
+.colorInput{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+.paymentSystemInput div,
+.colorInput div {
+    cursor: pointer;
+    border-radius: 15px;
+    width: 17%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s linear;
+}
+.paymentSystemInput{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.colorInput{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.submitNewCard{
+    margin-right: 2%;
+    border: none;
+    font-weight: 700;
+    color: white;
+    width: 22%;
+    height: 13%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: all 0.5s;
+}
+.submitNewCard:focus{
+    outline: none;
+}
+.submitNewCard:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.submitNewCard:active{
+    background-color: rgb(228, 228, 228);
+    transform: translateY(0.5px);
+}
+.newCardOutput{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.newCardFrontPart,
+.newCardRearPart{
+    background-color: red;
+    width: 75%;
+    height: 45%;
+    border-radius: 25px;
+    /* padding: 1%; */
+    color: white;
+}
+.newCardFrontPartHeader{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    display: flex;
+    width: 90%;
+    height: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.chip{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 13%;
+    height: 15%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.newCardFrontPartFotter{
+    margin-left: 5%;
+    margin-top: 19%;
+    height: 15%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.2rem;
+    justify-self: flex-end;
+}
+.newCardFrontPartFotterUserName{
+    font-size: 1.2rem;
+}
+.contactNumber{
+    margin-top: 2%;
+    font-size: 0.7rem;
+    margin-left: 5%;
+}
+.magneticTape{
+    margin-top: 2%;
+    width: 100%;
+    height: 25%;
+    background-color: black;
+}
+.CVVandDateEnd{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    font-size: 0.7rem;
+}
+.secutityCode{
+    margin-left: 5%;
+}
+.cardNumberText{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+.card{
+    margin-top: 1%;
+    width: 98%;
+    height: 15%;
+    padding: 1%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    color: white;
+}
+.cardIcon{
+    width: 5%;
+    height: 80%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: white;
+    color: black
+}
+.cardInfCards{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardInfCards p{
+    margin-left: 3%;
+}
+.cardAmountofMoney{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}

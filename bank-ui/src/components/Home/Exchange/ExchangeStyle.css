@@ -1,0 +1,26 @@
+#ExchangeSection{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainExchange{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    box-shadow: 0 0 15px red;
+    border-radius: 10px;
+    width: 80vw;
+    height: 40vh;
+}

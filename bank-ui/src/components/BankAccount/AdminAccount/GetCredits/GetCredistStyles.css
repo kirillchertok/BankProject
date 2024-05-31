@@ -1,0 +1,13 @@
+.getCreditsMain{
+    width: 98%;
+    height: 98%;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: white;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}

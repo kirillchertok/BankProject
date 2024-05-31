@@ -1,0 +1,261 @@
+@keyframes appearence {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.transactionsMainField{ 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+.transactionsMain{
+    width: 75%;
+    height: 85%;
+    padding: 1% 1.5% 1% 1.5%;
+    border-radius: 25px;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+.transactionsMain div[data-status="selected"]{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px red;
+}
+.transactionsMain::-webkit-scrollbar{
+    width: 0;
+}
+.transactionsHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    border-radius: 25px;
+}
+.transactionsHeader p{
+    font-size: 2rem;
+}
+.goBackBtnTrs{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+}
+.sort{
+    margin-top: 1%;
+    width: 100%;
+}
+#transactionsSortButton{
+    width: 15%;
+    height: 7vh;
+    font-size: 0.9rem;
+}
+#transactionsSortButton:hover{
+    font-size: 0.95rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.sortType{
+    padding-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid lightgray;
+}
+.sortHeader{
+    width: 98%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1% 0 1%;
+}
+.sortHeader p{
+    font-size: 1.5rem;
+}
+.resetSortTypeBtn{
+    color: black;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.dataTypeSort{
+    padding: 1%;
+    margin-top: 1%;
+    width: 98%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chooseType{
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sortTypeOption{
+    transition: all 0.5s linear;
+    padding: 1vh;
+    height: 100%;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    user-select: none;
+}
+.senderReceiverInfSort{
+    padding: 0 1% 0 1%;
+    border: 2px solid lightgray;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+.transactionsSortInput{
+    width: 32%;
+    height: 6vh;
+    padding-left: 1%;
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.transactionsSortInput:focus{
+    outline: none;
+}
+#transactionsSortInputSenderInf{
+    margin-left: 5%;
+}
+#submitSortBtn{
+    width: 15%;
+    margin-left: 1%;
+    height: 7vh;
+}
+#submitSortBtn:hover{
+    font-size: 0.85rem;
+    box-shadow: 0 0 10px lightgray;
+}
+.transactions{
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    padding: 1% 1% 0 1%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s linear;
+}
+.transaction{
+    width: 98%;
+    height: 10vh;
+    border-radius: 15px;
+    margin-bottom: 1%;
+    padding: 1%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.transaction[data-status = "Sended"]{
+    background-color: rgba(241, 107, 107, 0.5);
+    color: black;
+}
+.transaction[data-status = "Received"]{
+    background-color: rgba(211, 211, 211, 1);
+}
+.trsIcon{
+    width: 6.5%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.trsInf{
+    height: 100%;
+    width: 82%;
+    margin-left: 1.5%;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 30% 70%;
+    font-size: 0.8rem;
+    color: white;
+    font-size: 1rem;
+}
+.trsDate{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+.dateStr{
+    margin-left: 7%;
+    color: white;
+}
+.amountOfMoneyTrs{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.amountOfMoneyTrsText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.trsInfTypeText{
+    font-weight: 600;
+}
+.sortFotter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+}
+.sortFotter p{
+    margin-left: 2%;
+    font-size: 1.3rem;
+}
